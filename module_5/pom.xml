@@ -5,7 +5,6 @@
 		<groupId>com.pluralsight.security</groupId>
 		<artifactId>spring-security-common-threats</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/>
 	</parent>
 	<artifactId>module_5</artifactId>
 	<packaging>pom</packaging>

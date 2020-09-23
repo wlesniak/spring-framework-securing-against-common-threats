@@ -39,10 +39,4 @@ public class CryptoCurrencyRepositoryTest {
 		assertTrue(cryptos.get(0).getSymbol().equals("BTC") || cryptos.get(1).getSymbol().equals("BTC"));
 	}
 	
-	@Test(expected=DuplicateKeyException.class)
-	public void throwExceptionWhenTryingToInsertDuplicate() {
-		repository.save(new CryptoCurrency("ETH", "Etherium"));
-		repository.save(new CryptoCurrency("ETH", "Etherium"));
-	}
-	
 }

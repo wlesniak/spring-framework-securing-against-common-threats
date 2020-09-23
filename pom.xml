@@ -21,5 +21,9 @@
 
 	<modules>
 		<module>module_3</module>
+		<module>module_4</module>
+		<module>module_5</module>
+		<module>module_7</module>
+		<module>module_8</module>
   </modules>
 </project>
