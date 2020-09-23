@@ -1,0 +1,20 @@
+server:
+  port: 8443
+  ssl:
+    key-store-password: ENC(8e+G1W2rkvi1EglUn6uTheBzZ4IY2hhl)
+    key-store: classpath:keystore.p12
+    key-store-type: PKCS12
+    key-alias: tomcat
+
+logging:
+  level:
+    root: INFO
+    com.memorynotfound: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    
+jasypt:
+  encryptor:
+    password: password
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    algorithm: PBEWithMD5AndTripleDES
